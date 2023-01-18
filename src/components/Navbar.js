@@ -5,6 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
+  // eslint-disable-next-line
   const [button, setButton] = useState(true);
 
   const showButton = () =>{
